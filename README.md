@@ -1,4 +1,4 @@
-This is my thesis project for my Management master. Catholic University Leuven worked on finding ways to help users to get used to a new UI when designers revamp their aplication. My project focused on creating a new language to specify *storyboards*. Each storyboard would show to the end users all the transitions that happened from the old UI to the new one. Full thesis [here](http://iamlookingforaninternship.com/ressources/memoire.pdf) and related paper [here](http://dl.acm.org/citation.cfm?id=1996501)
+This is my thesis project for my Management master. Catholic University Leuven worked on finding ways to help users to get used to a new UI when designers revamp their aplication. My project focused on creating a new language to specify *storyboards*. Each storyboard would then be interpreted and would show to the end users all the transitions that happened from the old UI to the new one. Full thesis [here](http://iamlookingforaninternship.com/ressources/memoire.pdf) and related paper [here](http://dl.acm.org/citation.cfm?id=1996501)
 
 # Proof of concept
 

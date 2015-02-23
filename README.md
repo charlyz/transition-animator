@@ -2,7 +2,7 @@ This is my thesis project for my Management master. Catholic University Leuven w
 
 # Proof of concept
 
-```sql
+```javascript
 SUBSTITUTE #listbox_component_19 BY @ComboBox IN #box3 ("newComboBox") WHERE ROW 0, COL 0;
 CONTRACT #newComboBox OF 90 50;
 CHANGEBOX #button_1 TO #box3 WHERE ROW 0, COLINSERT 1;

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<uiModel id="test_19" name="Interface2" creationDate="2011-05-21T14:59:00.737+02:00" schemaVersion="1.6.4" >
+    <head>
+        <authorName>Charles-Eric Dessart</authorName>
+    </head>
+    <cuiModel id="Interface2CUI" name="Interface2CUI">
+        <window id="window_0" name="window_0"
+            defaultContent="main title" width="220" height="180" isResizable="true">
+            <box id="box_0" name="box_0" isEnabled="true"
+                borderWidth="0"  type="vertical" relativeWidth="100">
+                <box id="box1" name="box1" type="vertical" isBalanced="true" relativeHeight="70">
+                  <box id="box10" name="box10" type="horizontal" isBalanced="true" relativeHeight="17">
+                    <outputText id="label_0" name="label_0" defaultContent="Nom" />
+                    <inputText id="nomA" name="nomA" />
+                  </box>
+                  <box id="box11" name="box11" type="horizontal" isBalanced="true" relativeHeight="39">
+                    <outputText id="label_1" name="label_1" defaultContent="Sexe" />
+                    <box id="box110" name="box110" type="vertical">
+                      <radioButton id="radiobuttonHomme" name="radiobuttonHomme"
+                                   defaultContent="Homme"
+                                   textColor="#000000" groupName="groupeType"/>
+                      <radioButton id="radiobuttonFemme" name="radiobuttonFemme"
+                                   defaultContent="Femme"
+                                   textColor="#000000" groupName="groupeType"/>
+                      <radioButton id="radiobuttonAucun" name="radiobuttonAucun"
+                                   defaultContent="Aucun des deux"
+                                   textColor="#000000" groupName="groupeType"/>
+                    </box>
+                  </box>
+                  <box id="box12" name="box12" type="horizontal" isBalanced="true" relativeHeight="27">
+                    <outputText id="label_2" name="label_2" defaultContent="Etudiant" />
+                    <box id="box120" name="box120" type="vertical">
+                      <radioButton id="radiobuttonOui" name="radiobuttonOui"
+                                   defaultContent="Oui"
+                                   textColor="#000000" groupName="groupeEtudiant"/>
+                      <radioButton id="radiobuttonNon" name="radiobuttonNon"
+                                   defaultContent="Non"
+                                   textColor="#000000" groupName="groupeEtudiant"/>
+
+                    </box>
+                  </box>
+                  <box id="box13" name="box13" type="horizontal" isBalanced="true" relativeHeight="17">
+                    <outputText id="label_3" name="label_3" defaultContent="Nationalité" />
+                    <inputText id="nationaliteA" name="nationaliteA" defaultContent="" />
+                  </box>
+                </box>
+                
+                
+                <box id="box2" name="box2" type="horizontal"
+                    isBalanced="true" relativeWidth="100" relativeHeight="30">
+                    <button id="button_1" name="button_1"
+                        defaultContent="Valider" isVisible="true" isEnabled="true"/>
+                    <button id="button_0" name="button_0"
+                        defaultContent="Annuler" isVisible="true" isEnabled="true"/>
+                </box>
+            </box>
+          
+        </window>
+    </cuiModel>
+</uiModel>

@@ -1,0 +1,25 @@
+﻿<cuiModel id="poll_system-cui_30" name="poll system-cui">
+<window id="window_component_0" name="window_component_0">
+<box id="box_1" name="box_1" type="vertical">
+<radioButton id="radiobutton_component_2" name="radiobutton_component_2"
+content="/uiModel/resourceModel/cioRef[@cioId='radiobutton_component_2']/resource/@content"
+defaultContent="Isaac ASimov" isVisible="true"
+isEnabled="true" textColor="#000000" groupName="asking"/>
+<radioButton id="radiobutton_component_3" name="radiobutton_component_3"
+content="/uiModel/resourceModel/cioRef[@cioId='radiobutton_component_3']/resource/@content"
+defaultContent="H.G. Wells" isVisible="true"
+isEnabled="true" textColor="#000000" groupName="asking"/>
+<radioButton id="radiobutton_component_4" name="radiobutton_component_4"
+content="/uiModel/resourceModel/cioRef[@cioId='radiobutton_component_4']/resource/@content"
+defaultContent="Arthur C. Clark" isVisible="true"
+isEnabled="true" textColor="#000000" groupName="asking"/>
+<button id="button_component_5" name="button_component_5"
+content="/uiModel/resourceModel/cioRef[@cioId='button_component_5']/resource/@content"
+defaultContent="send" isVisible="true"
+isEnabled="true" textColor="#000000"/>
+<outputText id="output_text_component_6" name="output_text_component_6"
+content="/uiModel/resourceModel/cioRef[@cioId='output_text_component_6']/resource/@content"
+defaultContent="What sci-fi author is your favorite?"
+isVisible="true" isEnabled="true" isBold="true" textColor="#000000"/>
+</box>
+</window></cuiModel>

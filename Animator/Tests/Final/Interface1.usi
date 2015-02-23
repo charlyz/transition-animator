@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<uiModel id="test_19" name="Interface1" creationDate="2011-05-21T14:59:00.737+02:00" schemaVersion="1.6.4" >
+    <head>
+        <authorName>Charles-Eric Dessart</authorName>
+    </head>
+    <cuiModel id="Interface1CUI" name="Interface1CUI">
+        <window id="window_0" name="window_0"
+            defaultContent="main title" width="220" height="180" isResizable="true">
+            <box id="box_0" name="box_0" isEnabled="true"
+                borderWidth="0"  type="vertical" relativeWidth="100">
+                <box id="box1" name="box1" type="horizontal" isBalanced="true" relativeHeight="30">
+                    <outputText id="label_0" name="label_0"
+                        defaultContent="Choisissez un nom"
+                        isVisible="true" isEnabled="true" isBold="true"
+                        isUnderline="false" isStrikethrough="false"
+                        isSubscript="false" isSuperscript="false"
+                        textColor="#008000" textSize="24"
+                        textFont="Jenkins v2.0"
+                        textVerticalAlign="middle"
+                        textHorizontalAlign="middle" isEditable="false" isItalic="true"/>
+                </box>
+                <box id="box3" name="box3" type="horizontal" isBalanced="false" relativeHeight="40">
+                    <listBox id="listbox_component_19"
+                                name="listbox_component_19"
+                                isVisible="true" isEnabled="true" >
+						<item id="item_21" name="item_21"
+							defaultContent="Marc" />
+						<item id="item_22" name="item_22"
+							defaultContent="Charles" />
+						<item id="item_23" name="item_23"
+							defaultContent="Francois" />
+						<item id="item_24" name="item_24"
+							defaultContent="Elise"/>
+						<item id="item_25" name="item_25"
+							defaultContent="Eleonore"/>
+				  </listBox>
+                </box>
+                <box id="box2" name="box2" type="horizontal"
+                    isBalanced="true" relativeWidth="100" relativeHeight="30">
+                    <button id="button_1" name="button_1"
+                        defaultContent="Valider" isVisible="true" isEnabled="true"/>
+                    <button id="button_0" name="button_0"
+                        defaultContent="Annuler" isVisible="true" isEnabled="true"/>
+                </box>
+            </box>
+          
+        </window>
+    </cuiModel>
+</uiModel>

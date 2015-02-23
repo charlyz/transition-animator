@@ -1,0 +1,5 @@
+﻿<wf:Form Text="Form1" Name="Form1" ClientSize="400, 400" def:Class="XamlonApplication1.Form1" def:CodeBehind="Form1.xaml.vb" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2003/xaml/" xmlns:def="Definition" xmlns:wf="wf">
+  <wf:Form.Controls xmlns:wf="http://schemas.microsoft.com/2003/xaml/">
+    <wf:Label Text="This is the Login window" TabIndex="4" Name="label_0" />
+  </wf:Form.Controls>
+</wf:Form>

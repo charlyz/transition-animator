@@ -1,0 +1,22 @@
+<PROGRAM>			::= 	<STATEMENT> <PROGRAM> | 'EOF'
+<STATEMENT>			::= 	<STMTSUBSTITUTE> | <STMTCONTRACT> | <STMTEXTEND> | <STMTREMOVE> | <STMTCHANGEBOX> | <STMTCHANGECOLUMNS> | <STMTCHANGEROWS> | <STMTSET>
+
+<STMTSUBSTITUTE>	::=		'SUBSTITUTE' <SELECTOR> 'BY' 'control' 'IN' 'identifier' '(' 'string' ')' 'WHERE' <ROWTYPE> 'constant' ',' <COLTYPE> 'constant' ';'
+<STMTCONTRACT>		::=		'CONTRACT' <SELECTOR> 'OF' 'constant' 'constant' ';'
+<STMTEXTEND>		::=		'EXTEND' <SELECTOR> 'OF' 'constant' 'constant' ';'
+<STMTREMOVE>		::=		'REMOVE' <SELECTOR> ';'
+<STMTCHANGEBOX>		::=		'CHANGEBOX' <SELECTOR> 'TO' 'identifier' 'WHERE' <ROWTYPE> 'constant' ',' <COLTYPE> 'constant' ';'
+<STMTCHANGECOLUMNS>	::=		'CHANGECOLUMNS' 'identifier' 'TO' <DEFVAL> ';'
+<STMTCHANGEROWS>	::=		'CHANGEROWS' 'identifier' 'TO' <DEFVAL> ';'
+<STMTSET>			::=		'SET' <SELECTOR> 'property' 'TO' <VALUE> ';' 
+
+<SELECTOR>			::=		'identifier' | 'all' | 'control' | 'selector' <SELECTOR_PARAM>
+<SELECTOR_PARAM>	::=		'string' <SELECTOR_PARAM_LL1> | 'constant' <SELECTOR_PARAM_LL1> | <BOOLEAN> <SELECTOR_PARAM_LL1>
+<SELECTOR_PARAM_LL1>	::=		'lambda' | <SELECTOR_PARAM>
+<DEFVAL>			::=		'constant' <DEFVAL_LL1>
+<DEFVAL_LL1>		::=		'lambda' | <DEFVAL>
+<ROWTYPE>			::=		'ROWINSERT'|'ROW'
+<COLTYPE>			::=		'COLINSERT'|'COL'
+<VALUE>				::=		<BOOLEAN> | 'constant' | 'string'
+<MOVE>				::= 	'left' | 'top' | 'right' | 'bottom'
+<BOOLEAN>			::=		'true' | 'false'

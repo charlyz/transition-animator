@@ -1,0 +1,4 @@
+﻿SUBSTITUTE %SelectRadioGroup "groupeType" BY @ComboBox IN #box110 ("newComboBoxType") WHERE ROW 0, COL 0;
+SUBSTITUTE %SelectRadioGroup "groupeEtudiant" BY @CheckBox IN #box120 ("newCheckBoxEtudiant") WHERE ROW 0, COL 0;
+CONTRACT #window_0 OF 50 50;
+CHANGEROWS #box1 TO 25 25 25 25;

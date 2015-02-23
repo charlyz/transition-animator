@@ -1,0 +1,10 @@
+﻿//REMOVE All;
+//REMOVE %SelectName "text";
+//CHANGEBOX %SelectName "but" TO #box_2 WHERE ROWINSERT 11, COL 0;
+//SET #button_0->IsEnabled TO false;
+//SET #button_0->Height TO 50;
+SET %SelectName "text"->Text TO "test";
+//CHANGEBOX #button_0 TO #box_2 WHERE ROWINSERT 11, COL 0;
+//CHANGEBOX #button_0 TO #box_3 WHERE ROWINSERT 5, COL 0;
+//CHANGEBOX #radiobutton_component_7 TO #box_2 WHERE ROWINSERT 11, COL 0;
+//SUBSTITUTE #radiobutton_component_7 BY @ComboBox IN #box_3 ("newComboBox") WHERE ROW 8, COL 0;

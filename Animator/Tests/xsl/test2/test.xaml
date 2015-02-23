@@ -1,0 +1,24 @@
+﻿<Window
+	xmlns="http://schemas.microsoft.com/netfx/2007/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/netfx/2007/xaml"
+
+	Name="Window2"
+	Title="Main a Window"
+	Width="640" Height="480" ResizeMode="CanResize" BorderThickness="2" BorderBrush="#FF7D4BC1" WindowStyle="SingleBorderWindow" FlowDirection="LeftToRight" HorizontalContentAlignment="Left" ToolTip="test">
+
+
+    <Grid Name="LayoutRoot" FlowDirection="LeftToRight" Width="Auto">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Grid.Row="0"  Width="Auto" Name="grid1" Background="#FFF5D6D6" Opacity="0.5" />
+        <TextBlock FontFamily="Stencil Std" FontWeight="Bold" FontStyle="Italic" Foreground="#FFEF4343" VerticalAlignment="Stretch" Visibility="Visible">a zrazer azerdf</TextBlock>
+        <TextBox  Margin="83,12,58,291" DataContext="{Binding}" Width="56">zarzaer</TextBox>
+        <PasswordBox Password="sdfgdfg" Margin="49,163,75,233"></PasswordBox>
+        <RadioButton GroupName="test" Content="azerazer" Margin="32,223,175,178" IsThreeState="False"></RadioButton>
+        <Grid Grid.Column="1" Grid.Row="0" Name="grid2">
+            <Button Margin="43,146,100,178">fsqdf</Button>
+        </Grid>
+    </Grid>
+</Window>

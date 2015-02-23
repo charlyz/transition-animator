@@ -1,0 +1,25 @@
+﻿<Window x:Class="Animator.WindowTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WindowTest" Height="300" Width="300">
+    <Grid>
+        <CheckBox></CheckBox>
+        <RadioButton ></RadioButton>
+        <ListBox Width="50" Height="60">
+            <ListBoxItem>test</ListBoxItem>
+            <ListBoxItem Selected="ListBoxItem_Selected">test</ListBoxItem>
+            <ListBoxItem>test</ListBoxItem>
+<ListBoxItem>test</ListBoxItem>
+            <ListBoxItem>test</ListBoxItem>
+        </ListBox>
+        <ComboBox IsEditable="False" Width="50" Height="50" Margin="114,185,114,26" SelectionChanged="ComboBox_SelectionChanged">
+            <!--From here I am adding the Item in ComboBox-->
+            <ComboBoxItem FontSize="15">India</ComboBoxItem>
+            <ComboBoxItem >USA</ComboBoxItem>
+            <ComboBoxItem FontSize="15">England</ComboBoxItem>
+            <ComboBoxItem FontSize="15">Switzerland</ComboBoxItem>
+            <ComboBoxItem FontSize="15"></ComboBoxItem>
+        </ComboBox>
+    </Grid>
+</Window>
+
